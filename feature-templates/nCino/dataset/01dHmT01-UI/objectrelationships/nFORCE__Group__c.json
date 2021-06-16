@@ -1,0 +1,37 @@
+[
+  {
+    "name": "nFORCE__Group__c",
+    "lookupobjfieldmap": {
+      "nFORCE__Route_Group__c": "nFORCE__Group__c,nFORCE__Question_Group__c",
+      "nFORCE__Group__c": "nFORCE__Parent_Group__c"
+    },
+    "recordtypeidmap": {},
+    "userlookupfields": [
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  },
+  {
+    "name": "nFORCE__Route__c",
+    "lookupobjfieldmap": {
+      "nFORCE__Route_Group__c": "nFORCE__Parent_Route__c,nFORCE__Route__c",
+      "nFORCE__Route_Terms__c": "nFORCE__Route__c",
+      "nFORCE__Field_Configuration__c": "nFORCE__Route__c",
+      "nFORCE__Route_Tile__c": "nFORCE__Route__c"
+    },
+    "recordtypeidmap": {},
+    "userlookupfields": [
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  },
+  {
+    "name": "nFORCE__Route_Group__c",
+    "lookupobjfieldmap": {},
+    "recordtypeidmap": {},
+    "userlookupfields": [
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  }
+]
